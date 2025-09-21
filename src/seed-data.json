@@ -1,0 +1,378 @@
+{
+  "students": [
+    {
+      "id": "CS2025001",
+      "name": "Alex Johnson",
+      "email": "alex.johnson@college.edu",
+      "rollNo": "CS2025001",
+      "class": "B.Tech Computer Science",
+      "semester": "6th Semester",
+      "year": 3,
+      "cgpa": 8.7,
+      "attendance": 87,
+      "phone": "+91-9876543210",
+      "address": "123 College Street, City",
+      "feeBalance": 45000,
+      "hostelRoom": "A-201",
+      "mentor": "Dr. Sarah Williams",
+      "status": "Active",
+      "dateOfBirth": "2003-05-15",
+      "parentContact": "+91-9876543211"
+    },
+    {
+      "id": "CS2025002", 
+      "name": "Sarah Chen",
+      "email": "sarah.chen@college.edu",
+      "rollNo": "CS2025002",
+      "class": "B.Tech Computer Science",
+      "semester": "6th Semester", 
+      "year": 3,
+      "cgpa": 9.2,
+      "attendance": 95,
+      "phone": "+91-9876543212",
+      "address": "456 University Road, City",
+      "feeBalance": 0,
+      "hostelRoom": "B-105",
+      "mentor": "Dr. Sarah Williams",
+      "status": "Active",
+      "dateOfBirth": "2003-03-22",
+      "parentContact": "+91-9876543213"
+    },
+    {
+      "id": "CS2025003",
+      "name": "Mike Rodriguez", 
+      "email": "mike.rodriguez@college.edu",
+      "rollNo": "CS2025003",
+      "class": "B.Tech Computer Science",
+      "semester": "6th Semester",
+      "year": 3,
+      "cgpa": 6.8,
+      "attendance": 72,
+      "phone": "+91-9876543214",
+      "address": "789 Academic Lane, City",
+      "feeBalance": 25000,
+      "hostelRoom": null,
+      "mentor": "Dr. Sarah Williams",
+      "status": "Active",
+      "dateOfBirth": "2003-07-08",
+      "parentContact": "+91-9876543215"
+    }
+  ],
+  "staff": [
+    {
+      "id": "FAC001",
+      "name": "Dr. Sarah Williams",
+      "email": "sarah.williams@college.edu",
+      "role": "Faculty",
+      "department": "Computer Science",
+      "designation": "Associate Professor",
+      "phone": "+91-9876540001",
+      "courses": ["Data Structures", "Database Management", "Software Engineering"],
+      "mentees": ["CS2025001", "CS2025002", "CS2025003"],
+      "experience": 8,
+      "qualification": "Ph.D Computer Science",
+      "salary": 95000,
+      "status": "Active"
+    },
+    {
+      "id": "PRIN001",
+      "name": "Dr. Rajesh Kumar",
+      "email": "rajesh.kumar@college.edu", 
+      "role": "Principal",
+      "department": "Administration",
+      "designation": "Principal",
+      "phone": "+91-9876540002",
+      "courses": [],
+      "mentees": [],
+      "experience": 25,
+      "qualification": "Ph.D Mechanical Engineering",
+      "salary": 250000,
+      "status": "Active"
+    },
+    {
+      "id": "LIB001",
+      "name": "Ms. Priya Sharma",
+      "email": "priya.sharma@college.edu",
+      "role": "Librarian", 
+      "department": "Library",
+      "designation": "Chief Librarian",
+      "phone": "+91-9876540003",
+      "courses": [],
+      "mentees": [],
+      "experience": 12,
+      "qualification": "M.Lib.I.Sc",
+      "salary": 65000,
+      "status": "Active"
+    }
+  ],
+  "fees": [
+    {
+      "id": "FEE2025001",
+      "studentId": "CS2025001",
+      "academicYear": "2024-25",
+      "semester": "6th",
+      "tuitionFee": 80000,
+      "hostelFee": 30000,
+      "libraryFee": 2000,
+      "labFee": 15000,
+      "examFee": 3000,
+      "totalAmount": 130000,
+      "paidAmount": 85000,
+      "balance": 45000,
+      "dueDate": "2025-10-15",
+      "status": "Partial",
+      "transactions": [
+        {
+          "id": "TXN001",
+          "amount": 85000,
+          "date": "2025-08-15",
+          "method": "Online",
+          "transactionId": "PAY_123456789"
+        }
+      ]
+    },
+    {
+      "id": "FEE2025002",
+      "studentId": "CS2025002", 
+      "academicYear": "2024-25",
+      "semester": "6th",
+      "tuitionFee": 80000,
+      "hostelFee": 30000,
+      "libraryFee": 2000,
+      "labFee": 15000,
+      "examFee": 3000,
+      "totalAmount": 130000,
+      "paidAmount": 130000,
+      "balance": 0,
+      "dueDate": "2025-10-15",
+      "status": "Paid",
+      "transactions": [
+        {
+          "id": "TXN002",
+          "amount": 130000,
+          "date": "2025-08-01", 
+          "method": "Bank Transfer",
+          "transactionId": "BANK_987654321"
+        }
+      ]
+    }
+  ],
+  "attendance": [
+    {
+      "id": "ATT001",
+      "studentId": "CS2025001",
+      "courseId": "CS301",
+      "courseName": "Data Structures",
+      "facultyId": "FAC001",
+      "date": "2025-09-21",
+      "status": "Present",
+      "session": "Morning",
+      "markedBy": "FAC001",
+      "markedAt": "2025-09-21T09:15:00Z"
+    },
+    {
+      "id": "ATT002", 
+      "studentId": "CS2025002",
+      "courseId": "CS301",
+      "courseName": "Data Structures",
+      "facultyId": "FAC001",
+      "date": "2025-09-21",
+      "status": "Present",
+      "session": "Morning",
+      "markedBy": "FAC001",
+      "markedAt": "2025-09-21T09:15:00Z"
+    },
+    {
+      "id": "ATT003",
+      "studentId": "CS2025003",
+      "courseId": "CS301", 
+      "courseName": "Data Structures",
+      "facultyId": "FAC001",
+      "date": "2025-09-21",
+      "status": "Absent",
+      "session": "Morning",
+      "markedBy": "FAC001",
+      "markedAt": "2025-09-21T09:15:00Z"
+    }
+  ],
+  "hostel_allocations": [
+    {
+      "id": "HST001",
+      "studentId": "CS2025001",
+      "hostelName": "Aryabhatta Hostel",
+      "roomNumber": "A-201",
+      "roomType": "Double Sharing",
+      "allocatedDate": "2025-07-15",
+      "wardenId": "WRD001", 
+      "roommates": ["CS2025004"],
+      "fee": 30000,
+      "status": "Occupied",
+      "checkInDate": "2025-07-20"
+    },
+    {
+      "id": "HST002",
+      "studentId": "CS2025002",
+      "hostelName": "Bharathi Hostel", 
+      "roomNumber": "B-105",
+      "roomType": "Single",
+      "allocatedDate": "2025-07-15",
+      "wardenId": "WRD001",
+      "roommates": [],
+      "fee": 45000,
+      "status": "Occupied",
+      "checkInDate": "2025-07-18"
+    }
+  ],
+  "placements": [
+    {
+      "id": "PLC001",
+      "companyName": "TechCorp Solutions",
+      "jobTitle": "Software Developer",
+      "driveDate": "2025-10-15",
+      "eligibilityCriteria": {
+        "minCGPA": 7.0,
+        "allowedBranches": ["Computer Science", "IT"],
+        "maxBacklogs": 0
+      },
+      "package": 12000000,
+      "location": "Bangalore",
+      "applicationDeadline": "2025-10-01",
+      "roundsCount": 4,
+      "selectedStudents": [],
+      "appliedStudents": ["CS2025001", "CS2025002"],
+      "status": "Active",
+      "placementOfficerId": "PLO001"
+    },
+    {
+      "id": "PLC002",
+      "companyName": "DataFlow Inc",
+      "jobTitle": "Data Analyst", 
+      "driveDate": "2025-11-20",
+      "eligibilityCriteria": {
+        "minCGPA": 6.5,
+        "allowedBranches": ["Computer Science", "IT", "Mathematics"],
+        "maxBacklogs": 1
+      },
+      "package": 8500000,
+      "location": "Hyderabad",
+      "applicationDeadline": "2025-11-05",
+      "roundsCount": 3,
+      "selectedStudents": [],
+      "appliedStudents": ["CS2025001", "CS2025003"],
+      "status": "Upcoming",
+      "placementOfficerId": "PLO001"
+    }
+  ],
+  "library_records": [
+    {
+      "id": "LBR001",
+      "studentId": "CS2025001",
+      "bookId": "BOOK001",
+      "bookTitle": "Introduction to Algorithms",
+      "author": "Thomas H. Cormen",
+      "isbn": "9780262033848",
+      "issueDate": "2025-09-01",
+      "dueDate": "2025-09-15",
+      "returnDate": null,
+      "fine": 0,
+      "status": "Issued",
+      "renewalCount": 0,
+      "librarianId": "LIB001"
+    },
+    {
+      "id": "LBR002",
+      "studentId": "CS2025002",
+      "bookId": "BOOK002", 
+      "bookTitle": "Database System Concepts",
+      "author": "Abraham Silberschatz",
+      "isbn": "9780078022159",
+      "issueDate": "2025-08-25",
+      "dueDate": "2025-09-08",
+      "returnDate": "2025-09-07",
+      "fine": 0,
+      "status": "Returned",
+      "renewalCount": 0,
+      "librarianId": "LIB001"
+    },
+    {
+      "id": "LBR003",
+      "studentId": "CS2025003",
+      "bookId": "BOOK003",
+      "bookTitle": "Software Engineering",
+      "author": "Ian Sommerville", 
+      "isbn": "9780137053469",
+      "issueDate": "2025-08-20",
+      "dueDate": "2025-09-03",
+      "returnDate": null,
+      "fine": 540,
+      "status": "Overdue",
+      "renewalCount": 1,
+      "librarianId": "LIB001"
+    }
+  ],
+  "courses": [
+    {
+      "id": "CS301",
+      "code": "CS301",
+      "name": "Data Structures and Algorithms",
+      "department": "Computer Science",
+      "semester": 6,
+      "credits": 4,
+      "facultyId": "FAC001",
+      "enrolledStudents": ["CS2025001", "CS2025002", "CS2025003"],
+      "schedule": {
+        "monday": "09:00-10:00",
+        "wednesday": "09:00-10:00", 
+        "friday": "09:00-10:00"
+      },
+      "classroom": "CS-101",
+      "status": "Active"
+    },
+    {
+      "id": "CS302",
+      "code": "CS302", 
+      "name": "Database Management Systems",
+      "department": "Computer Science",
+      "semester": 6,
+      "credits": 3,
+      "facultyId": "FAC001",
+      "enrolledStudents": ["CS2025001", "CS2025002"],
+      "schedule": {
+        "tuesday": "11:00-12:00",
+        "thursday": "11:00-12:00"
+      },
+      "classroom": "CS-203",
+      "status": "Active"
+    }
+  ],
+  "helpdesk_tickets": [
+    {
+      "id": "TKT001",
+      "title": "Unable to access online portal",
+      "description": "Getting error 500 when trying to log into student portal",
+      "category": "Technical",
+      "priority": "High",
+      "status": "Open", 
+      "createdBy": "CS2025001",
+      "assignedTo": "HLP001",
+      "createdAt": "2025-09-21T10:30:00Z",
+      "updatedAt": "2025-09-21T10:30:00Z",
+      "resolution": null,
+      "feedback": null
+    },
+    {
+      "id": "TKT002",
+      "title": "Fee receipt not generated",
+      "description": "Paid fees online but receipt is not available for download",
+      "category": "Finance",
+      "priority": "Medium",
+      "status": "In Progress",
+      "createdBy": "CS2025002", 
+      "assignedTo": "HLP001",
+      "createdAt": "2025-09-20T14:15:00Z",
+      "updatedAt": "2025-09-21T09:20:00Z",
+      "resolution": "Regenerating receipt from payment gateway",
+      "feedback": null
+    }
+  ]
+}
